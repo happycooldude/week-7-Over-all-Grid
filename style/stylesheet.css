@@ -1,0 +1,127 @@
+.grid-container {
+    width: 1100px;
+    margin: auto;
+    align-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 120px 400px 280px;
+    background-color: powderblue;
+  }
+
+  .logo {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .navbar-grid {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    padding: 20px;
+    font-size: 20px;
+    grid-column: 2 /span 2;
+    grid-row: 1;
+    text-align: center;
+  }
+
+  .banner {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    background-color: lightblue;
+    border-bottom: solid black 40px;
+    text-align: center;
+  }
+
+  .bannerpng{
+    object-fit: contain;
+    overflow:hidden;
+  }
+
+  .bannertxt {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: solid black 40px;
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .fadeslider {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: solid black 30px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .nivoslider {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: solid black 30px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .bonusslider {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: solid black 30px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .footer{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    grid-column: 1 / span 3;
+    grid-row: 4;
+    text-align: center;
+  }
+
+  /*De navigatiebar*/
+  .topnav{
+      background-color: wheat;
+      overflow: hidden;
+  }
+
+  .topnav a{
+      float: right;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      font-size: 14px 20px;
+      border-left: 1px solid black;
+  }
+
+  .topnav a:hover{
+      background-color: beige;
+      color: black;
+  }
+
+  .topnav a.active{
+      background-color: blue;
+      color: black;
+  }
+
+  .footertxt{
+    padding: 10px;
+    background-color:darkblue;
+    border-radius: 4px;
+  }
+
+  h1{
+    font-family: 'Lato', sans-serif;
+  }
+
+  h2{
+    font-family: 'Lato', sans-serif;
+  }
+
+  p{
+    font-family: 'Lato', sans-serif;
+  }
